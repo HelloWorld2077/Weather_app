@@ -4,16 +4,16 @@
 
     <br>
 
-    <h1> Welcome to the Weather App! </h1>
+    <h1> Forecast Section </h1>
 
-    <h3> Here you'll find important information regarding climate in many regions!</h3>
+    <h3> Here you can provide a location and check its forecast for the next 3 days!</h3>
 
     <br>
 
     Please provide the region's name or ZIP code:
     <form method='POST' action='/location' class='row g-3'>
         <div class='col-auto'>
-            <input class='form-control' name='place' placeholder='e.g. Vancouver'/>
+            <input class='form-control' name='place' placeholder='e.g. Montreal'/>
 
             @if($message !== null)
                 <br>
@@ -27,6 +27,5 @@
         </div>
     </form>
 
-    
 
 @endsection

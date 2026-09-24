@@ -16,10 +16,10 @@
                         <a class="nav-link active" aria-current="page" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link active" href="#" >Available locations</a>
+                        <a class="nav-link active" href="/entry_forecast" >Forecast</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link active" href="#">About</a>
+                        <a class="nav-link active" href="/about">About</a>
                         </li>
                     </ul>
                     <span class="navbar-text">
@@ -35,8 +35,8 @@
 
     </body>
     
-    <footer>
-
-    </footer>
+<footer>
+    <!-- work on this -->
+</footer>
 
 </html>
