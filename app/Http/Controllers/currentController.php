@@ -48,6 +48,19 @@ class currentController extends Controller
         return redirect('/current');
     }
 
+    public function collectLocationForForecast() {
+
+        request()->validate([
+            'place' => 'required|max:255',
+        ]);
+
+        $data = Location::create([
+            'place' => request('place'),
+        ]);
+
+        return redirect('/forecast');
+    }
+
     public function gatherInfo() {
 
     $location = Location::orderByDesc('id')->first();

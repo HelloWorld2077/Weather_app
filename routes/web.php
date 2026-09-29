@@ -12,6 +12,8 @@ Route::get('/about', [currentController::class, 'about']);
 
 Route::post('/location', [currentController::class, 'collectLocation']);
 
+Route::post('/locationForecast', [currentController::class, 'collectLocationForForecast']);
+
 Route::get('/current', [currentController::class, 'gatherInfo']);
 
 Route::get('/forecast', [currentController::class, 'gatherForecastInfo']);

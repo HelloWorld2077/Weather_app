@@ -11,7 +11,7 @@
     <br>
 
     Please provide the region's name or ZIP code:
-    <form method='POST' action='/location' class='row g-3'>
+    <form method='POST' action='/locationForecast' class='row g-3'>
         <div class='col-auto'>
             <input class='form-control' name='place' placeholder='e.g. Montreal'/>
 
